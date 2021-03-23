@@ -1,0 +1,180 @@
+body{
+												background:#e6e6e6;
+												scroll-behavour: smooth;
+								}
+								*{
+												margin:0;
+												padding: 0;
+												font-family:"raleway",sans-sarif;
+								}
+								#header{
+												position: sticky;
+												top:0;
+												display:flex;
+												background:#00cccc;
+												width: 100vw;
+											 height: 60px;
+											 
+								}
+								#title{
+								position: absolute;
+								display: inline-block;
+												margin:15px 0px 10px 50px;
+												font-size:25px;
+												color:white;
+								}
+							#logo{
+							position: absolute;
+										margin:10px  5px;		
+										border-radius:50%;								
+							}
+							#navBar{
+							position: absolute;
+							
+							margin:15px 5px;
+											right:5px;
+											color:white;
+							}
+							#navCon{
+							position: sticky;
+							
+							top:50px;
+											width:100%;
+											height:200px;
+											background:linear-gradient(160deg,#00cccc,#00e6e6);
+											display:none;
+											transition:height 0.6s ease-in;
+											box-shadow:2px 8px 10px 10px rgba(0,0,0,0.2);
+							overflow:scroll;
+							padding-bottom:20px;
+							}
+							#exitBtn{
+							display:flex;
+							position: sticky;
+							padding-left:90%;
+							top:5px;
+							right:5px;
+											color:white;
+											margin:10px;
+											
+							}
+							 a{
+							 position: relative;
+							 display:block;
+							 wwidth: 100%;
+											text-decoration:none;
+											color:white;
+											line-height:35px;
+							}
+							#navCon #navItems{
+							position: absolute;
+											margin:36px 10px;
+							}
+							a:active{
+											transform:scale(0.9);
+											background:#00e6e6;
+							}
+							h2{
+							display:flex;
+							align-items: center;
+							justify-content: center;
+							margin:10px 10px;
+											width:200px;
+											height: 35px;
+											background: #e6e6e6;
+											border-radius:10px;
+											box-shadow:-5px -5px 5px rgba(255,255,255,0.9), 5px 5px 5px rgba(70,70,70,0.4);
+							}
+							p{
+											margin:20px;
+							}
+							#ex{
+							display:flex;
+											width: 90vw;
+											height: 160px;
+											padding-top:20px;
+											padding-bottom:20px;
+											background:#e6e6e6;
+											margin:20px 20px;
+											justify-content: center;
+											align-items: center;
+											color:#000066;
+											border-radius:10px;
+											box-shadow:inset -5px -5px 5px rgba(255,255,255,0.9), inset 5px 5px 5px rgba(70,70,70,0.4);
+											overflow-x: hidden;
+								overflow-y:scroll;
+							}
+							footer{
+							display: absolute;
+							text-align: center;
+							padding-top:30px;
+										height: 150px;
+											width: 100vw;
+											margin:0px 20px;
+											background:#00cccc;
+											margin-left:0px;
+											bottom:0%;
+											margin-bottom:0%;
+							}
+							#ex p{
+											margin: 20px;
+							}
+				 #subTt{
+				 display:block;
+				  background: ;
+				  font-size:15px;
+				  width: 100%;
+								display:none;
+				padding-left:30px;
+				}
+		
+			footer>i{
+							font-size:25px;
+							color:white;
+							margin: 10px;
+			}
+		footer div h3{
+			padded:px;
+							color: white;
+							text-decoration:underline;
+			}
+			footer p{
+							text-decoration:none;
+							color: white;
+			}
+			#htmlSub,#cssSub,#jsSub{
+							margin-left:30px;
+							display:none;
+							list-style-type: Circle;
+			}
+			a:hover,a:visited{
+							border-left:4px solid white;
+							padding-left:5px;
+			}
+			#syntax{
+							display:none;
+			}
+			
+			ul li{
+							margin: 10px 35px;
+			}
+			#ey{
+							display:flex;
+											width: 90vw;
+											height: 60px;
+											background:#e6e6e6;
+											padding-top:20px;
+											padding-bottom:20px;
+											margin:20px 20px;
+											justify-content: center;
+											align-items: center;
+											color:#000066;
+											border-radius:10px;
+											box-shadow:inset -5px -5px 5px rgba(255,255,255,0.9), inset 5px 5px 5px rgba(70,70,70,0.4);
+								overflow-x: hidden;
+								overflow-y:scroll;
+							}
+							#hc{
+											margin-left:50px;
+							}
+			
